@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.4.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PromptPortal.Application\PromptPortal.Application.csproj" />
+    <ProjectReference Include="..\PromptPortal.Infrastructure\PromptPortal.Infrastructure.csproj" />
+    <ProjectReference Include="..\PromptPortal.ServiceDefaults\PromptPortal.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

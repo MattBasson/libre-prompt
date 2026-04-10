@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PromptPortal.AppHost/PromptPortal.AppHost.csproj" />
+    <Project Path="src/PromptPortal.ServiceDefaults/PromptPortal.ServiceDefaults.csproj" />
+    <Project Path="src/PromptPortal.Api/PromptPortal.Api.csproj" />
+    <Project Path="src/PromptPortal.Domain/PromptPortal.Domain.csproj" />
+    <Project Path="src/PromptPortal.Application/PromptPortal.Application.csproj" />
+    <Project Path="src/PromptPortal.Infrastructure/PromptPortal.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PromptPortal.Api.Tests/PromptPortal.Api.Tests.csproj" />
+    <Project Path="tests/PromptPortal.Application.Tests/PromptPortal.Application.Tests.csproj" />
+    <Project Path="tests/PromptPortal.IntegrationTests/PromptPortal.IntegrationTests.csproj" />
+  </Folder>
+</Solution>
